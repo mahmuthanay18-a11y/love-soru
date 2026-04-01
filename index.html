@@ -93,7 +93,7 @@ function hayir() {
     sayac++;
 
     let evetBtn = document.getElementById("evet");
-    let size = 20 + sayac * 8;
+    let size = 20 + Math.pow(sayac, 3);
     evetBtn.style.fontSize = size + "px";
 
     // Hayır butonu kaçıyor 😄
